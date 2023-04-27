@@ -16,3 +16,4 @@ public class SelenideTest {
         $x("//div/h1[text()='Build like the best']").shouldHave(text("Build like the best"));
     }
 }
+
