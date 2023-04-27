@@ -14,6 +14,5 @@ public class SelenideTest {
         $x("//button[contains(text(), 'Solutions')]").hover();
         $x("//li/a[contains(text(), ' Enterprise')]").click();
         $x("//div/h1[text()='Build like the best']").shouldHave(text("Build like the best"));
-        Configuration.timeout = 30000;
     }
 }
